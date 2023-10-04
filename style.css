@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+.lo{
+    height: 40px;
+}
+
+.heading{
+    height: 50px;
+    width: 100%;
+    padding: 5px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 6px 0px 10px red;
+    position: fixed;  
+}
+
+.page1{
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    text-transform: uppercase;
+    font-family: arial; 
+}
+
+.moin{
+    text-decoration: none;
+    color: red;
+    font-weight: 600;
+}
+
+.mama{
+    font-size: 25px;
+    padding-left: 30px;
+    text-transform: uppercase;
+
+}
+
+.mama a{
+    font-family: arial;
+    text-decoration: none;
+    font: bold;
+}
+
+.mama b:hover{
+    text-decoration: underline solid red;
+    transition: all 1s;
+    font-size: 35px;
+    
+}
+
+.moin:hover{
+    font-size: 25px;
+    transition: all .7s;
+    color: black;
+    text-decoration: underline blue;
+    font-family: arial;
+}
+ .page2{ 
+    width: 100vw;
+    height: auto;
+    background-color: aqua;
+    flex-flow: row wrap; 
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.box1{
+    margin-top: 20px;
+    gap: 300px;
+    height: 400px;
+    width: 400px;
+
+}
+
+.box1 img{
+    max-width: 70%;
+    max-height: 70%;
+    background-size: cover;
+    display:flex;
+    margin: 100px;
+    border-radius: 50%;
+}
+
+.page3{
+    height:auto;
+    width: 100vw;
+    background-color: aqua;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin: 20px; */
+}
+
+.box4 img{
+    margin-top: 10px;
+}
+
+.page4{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 0px;
+    padding: 101px;
+    gap: 300px;
+    display: flex;
+    color: chocolate;
+
+}
+
+#dada{
+    height:auto;
+    width: 100vw;
+    background-color: tomato;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+#box{
+    background-color: black;
+    box-shadow: 5px 0px 10px white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:auto;
+    width: 100vw;
+    box-shadow: 20px 10px 50px red;
+    
+}
+.mn{
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    border-radius: 100%;
+    background-color: black;
+    margin: 20px;
+}
+
+.nm{
+    text-transform: uppercase;
+    border-radius: 25px;
+    font-family: arial;
+    color: white;
+    background-color: black;
+    margin: 0px 100px;
+}
+
+.you{
+    margin-left: 50px;
+}
+
+.bolo{
+    color: white;
+}
+
+#box:hover em{
+    font-size: 25px;
+    transition:all 0.8s;
+}
+
+.zool:hover{
+    color: red;
+    transition: all .6s;
+    font-size: 20px;
+}
+
+
+.loerm:hover{
+    transition: all 1s;
+    color: red;
+}
